@@ -1,0 +1,456 @@
+.wrapper-setting {
+  width: 1910px;
+  height: 1010px;
+  position: relative;
+}
+.wrapper-setting-dark {
+  background-color: #28333a;
+}
+.title-main-setting-dark {
+  color: #dddedf;
+}
+.subtitle-main-setting-dark {
+  color: #bfc5ce !important;
+}
+.subnav-setting-demo-dark {
+  color: #a6a5a5 !important;
+}
+.title-setting-dark input {
+  background-color: #28333a;
+  color: #dddedf;
+}
+.email-setting-dark input {
+  background-color: #28333a;
+  color: #dddedf;
+}
+.bg-setting-dark input {
+  background-color: #28333a;
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-range {
+  background-color: #28333a;
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-range-separator {
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-input input {
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-input input::placeholder {
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-suffix {
+  color: #dddedf;
+}
+.date-setting-dark .ant-picker-separator {
+  color: #dddedf;
+}
+.lable-title-dark,
+.lable-email-dark,
+.lable-bg-dark,
+.lable-date-dark {
+  color: #dddedf;
+}
+
+.title-main-setting {
+  float: left;
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.subtitle-main-setting {
+  margin-left: 320px;
+  margin-top: 80px;
+  position: absolute;
+  font-size: 15px;
+  color: #595757;
+}
+.form-setting {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -70px;
+}
+.line-cut-setting {
+  width: 1710px;
+  margin-left: -885px;
+  height: 2px;
+  background-color: #bfc5ce;
+  position: absolute;
+  margin-top: 125px;
+}
+.nav-setting-demo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 150px;
+  margin-left: 300px;
+  gap: 18px;
+}
+.subnav-setting-demo {
+  color: #5f5d5d;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+.subnav-setting-demo:hover {
+  color: #000000;
+}
+.title-setting {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 1000px;
+}
+.title-setting > label {
+  margin-right: 15px;
+  position: absolute;
+}
+.title-setting > input {
+  height: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  width: 400px;
+  border-radius: 5px;
+  border: 2px solid #a6a5a5;
+  padding-left: 15px;
+}
+.title-error {
+  font-size: 15px;
+  margin-left: 30px;
+  color: brown;
+  position: absolute;
+}
+.email-setting {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 1000px;
+}
+.email-setting > label {
+  margin-right: 15px;
+  position: absolute;
+  margin-top: -25px;
+}
+.email-setting > input {
+  height: 50px;
+  font-size: 18px;
+  width: 400px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 2px solid #a6a5a5;
+  padding-left: 15px;
+}
+.email-error {
+  font-size: 15px;
+  margin-left: 130px;
+  color: brown;
+  position: absolute;
+}
+.bg-setting {
+  position: absolute;
+  margin-top: 335px;
+  margin-left: 1000px;
+}
+.bg-setting > label {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 0px;
+}
+
+.bg-input-color {
+  width: 70px !important;
+  height: 58px !important;
+  border-radius: 5px;
+  background-color: #ffff;
+  padding: 0 !important;
+  margin: 0;
+  border: none !important;
+  position: absolute;
+  z-index: 10;
+  margin-top: -24px;
+}
+.bg-input-color:hover {
+  border: none !important;
+}
+.date-input {
+  height: 50px;
+  width: 400px;
+  border: 2px solid #a6a5a5;
+}
+input[type="color"] {
+  border-radius: 5px;
+}
+.bg-input-color-text {
+  height: 50px;
+  width: 350px;
+  border: 2px solid #a6a5a5;
+  padding-left: 130px;
+  font-size: 20px;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.bgColor-error-error {
+  font-size: 15px;
+  margin-left: 130px;
+  color: brown;
+  position: absolute;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+.date-setting {
+  margin-top: 430px;
+  margin-left: 1000px;
+  position: absolute;
+}
+.date-setting label {
+  margin-top: -35px;
+  position: absolute;
+}
+.DateRangePickerInput {
+  height: 50px;
+  width: 400px;
+  border: 2px solid #a6a5a5;
+  border-radius: 5px;
+}
+.date-error {
+  font-size: 13px;
+  margin-left: 145px;
+  color: brown;
+  position: absolute;
+}
+.end-date-error {
+  font-size: 13px;
+  margin-left: 225px;
+  color: brown;
+  position: absolute;
+}
+.save-setting {
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 1750px;
+}
+.save-setting > button {
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.title-save {
+  margin-left: 20px;
+}
+.save-setting:hover > button {
+}
+.cut-line-setting-demo {
+  width: 2px;
+  height: 885px;
+  background-color: #bfc5ce;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 500px;
+}
+@media screen and (min-width: 1921px) {
+  .wrapper-setting {
+    width: 2560px;
+  }
+  .line-cut-setting {
+    margin-left: -1210px;
+    width: 2350px;
+  }
+  .save-setting {
+    margin-left: 2345px;
+  }
+}
+@media (min-width: 1026px) and (max-width: 1440px) {
+  .wrapper-setting {
+    width: 1435px;
+  }
+  .line-cut-setting {
+    margin-left: -1210px;
+    width: 1790px;
+  }
+
+  .save-setting {
+    margin-left: 1245px;
+  }
+  .title-setting {
+    margin-left: 750px;
+  }
+  .email-setting {
+    margin-left: 750px;
+  }
+  .bg-setting {
+    margin-left: 750px;
+  }
+  .date-setting {
+    margin-left: 750px;
+  }
+}
+@media (min-width: 770px) and (max-width: 1025px) {
+  .wrapper-setting {
+    width: 1024px;
+  }
+  .line-cut-setting {
+    margin-left: -1210px;
+    width: 1790px;
+  }
+  .title-main-setting {
+    margin-left: 30px;
+  }
+  .subtitle-main-setting {
+    margin-left: 30px;
+  }
+  .nav-setting-demo {
+    margin-left: 30px;
+  }
+  .cut-line-setting-demo {
+    margin-left: 200px;
+  }
+  .save-setting {
+    margin-left: 845px;
+  }
+  .title-setting {
+    margin-left: 400px;
+  }
+  .email-setting {
+    margin-left: 400px;
+  }
+  .bg-setting {
+    margin-left: 400px;
+  }
+  .date-setting {
+    margin-left: 400px;
+  }
+}
+@media (min-width: 740px) and (max-width: 769px) {
+  .wrapper-setting {
+    width: 768px;
+  }
+  .line-cut-setting {
+    margin-left: -390px;
+    width: 768px;
+  }
+  .title-main-setting {
+    margin-left: 30px;
+  }
+  .subtitle-main-setting {
+    margin-left: 30px;
+  }
+  .nav-setting-demo {
+    margin-left: 30px;
+  }
+  .cut-line-setting-demo {
+    margin-left: 200px;
+  }
+  .save-setting {
+    margin-left: 580px;
+  }
+  .title-setting {
+    margin-left: 300px;
+  }
+  .email-setting {
+    margin-left: 300px;
+  }
+  .bg-setting {
+    margin-left: 300px;
+  }
+  .date-setting {
+    margin-left: 300px;
+  }
+}
+@media (max-width: 430px) {
+  .title-main-setting {
+    margin-left: 30px;
+  }
+  .subtitle-main-setting {
+    margin-left: 30px;
+  }
+  .wrapper-setting {
+    width: 425px;
+  }
+  .line-cut-setting {
+    margin-left: -390px;
+    width: 768px;
+  }
+
+  .form-setting {
+    margin-left: -15px;
+  }
+  .cut-line-setting-demo {
+    display: none;
+  }
+  .save-setting {
+    margin-top: 600px;
+    margin-left: 250px;
+  }
+  .title-setting {
+    margin-left: 25px;
+  }
+  .email-setting {
+    margin-left: 25px;
+  }
+  .bg-setting {
+    margin-left: 25px;
+  }
+  .date-setting {
+    margin-left: 25px;
+  }
+  .nav-setting-demo {
+    display: none;
+  }
+}
+@media (max-width: 376px) {
+  .title-main-setting {
+    margin-left: 30px;
+  }
+  .subtitle-main-setting {
+    margin-left: 30px;
+  }
+  .wrapper-setting {
+    width: 375px;
+  }
+  .line-cut-setting {
+    margin-left: -190px;
+    width: 368px;
+  }
+
+  .form-setting {
+    margin-left: -15px;
+  }
+  .cut-line-setting-demo {
+    display: none;
+  }
+  .save-setting {
+    margin-top: 600px;
+    margin-left: 200px;
+  }
+  .title-setting {
+    margin-left: 10px;
+  }
+  .title-setting input,
+  .email-setting input,
+  .date-setting input {
+    width: 375px;
+  }
+  .bg-input-color-text {
+    width: 325px;
+  }
+  .DateRangePickerInput {
+    width: 375px;
+  }
+  .email-setting {
+    margin-left: 13px;
+  }
+  .bg-setting {
+    margin-left: 13px;
+  }
+  .date-setting {
+    margin-left: 13px;
+  }
+  .nav-setting-demo {
+    display: none;
+  }
+}

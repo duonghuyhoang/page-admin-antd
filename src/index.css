@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  font-size: 13px !important;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  min-height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+button,
+input,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
